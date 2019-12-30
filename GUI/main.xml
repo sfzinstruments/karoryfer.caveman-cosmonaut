@@ -1,0 +1,175 @@
+<GUI w="775" h="335">
+
+	<!-- Synth GUI -->
+ 
+	<!-- Background -->
+
+	<StaticImage x="0" y="0" w="773" h="333" image="control_tab.png" transparent="0"  />
+	
+	<!-- Mixer section -->
+
+	<OptionMenu    param="16"  x="11"  y="10"  w="32" h="18"  font_size="Small" alignment="center" color_text="#D7DAE0FF" transparent="0"  >	
+		<OptionItem name="Off"		    value="0.0" />
+		<OptionItem name="16-1"		    value="0.1181" />
+		<OptionItem name="16-2"		    value="0.1969" />
+		<OptionItem name="8"		    value="0.2756" />
+		<OptionItem name="All"		    value="0.3544" />
+	</OptionMenu>
+
+<Slider param="15"   x="21"  y="35"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+	<OptionMenu    param="18"  x="61"  y="10"  w="32" h="18"  font_size="Small" alignment="center" color_text="#D7DAE0FF" transparent="0"  >	
+		<OptionItem name="Off"		    value="0.0" />
+		<OptionItem name="Flt"	    value="0.1181" />
+		<OptionItem name="Clrnt"	    value="0.1969" />
+		<OptionItem name="Trmb"	    value="0.2756" />
+		<OptionItem name="Trmp"	    value="0.3544" />
+		<OptionItem name="Viln"	    value="0.4331" />
+		<OptionItem name="Trem"	    value="0.5119" />
+		<OptionItem name="All"		    value="0.5906" />
+	</OptionMenu>
+
+<Slider param="17"   x="71"  y="35"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+	<OptionMenu    param="20"  x="111"  y="10"  w="32" h="18"  font_size="Small" alignment="center" color_text="#D7DAE0FF" transparent="0"  >	
+		<OptionItem name="Off"		    value="0.0" />
+		<OptionItem name="Flt"	    value="0.1181" />
+		<OptionItem name="Clrnt"	    value="0.1969" />
+		<OptionItem name="Trmb"	    value="0.2756" />
+		<OptionItem name="Trmp"	    value="0.3544" />
+		<OptionItem name="Viln"	    value="0.4331" />
+		<OptionItem name="Trem"	    value="0.5119" />
+		<OptionItem name="All"		    value="0.5906" />
+	</OptionMenu>
+
+
+<Slider param="19"   x="121"  y="35"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+	<OptionMenu    param="22"  x="161"  y="10"  w="32" h="18"  font_size="Small" alignment="center" color_text="#D7DAE0FF" transparent="0"  >	
+		<OptionItem name="Off"		    value="0.0" />
+		<OptionItem name="Flt"	    value="0.1181" />
+		<OptionItem name="Clrnt"	    value="0.1969" />
+		<OptionItem name="Trmb"	    value="0.2756" />
+		<OptionItem name="Trmp"	    value="0.3544" />
+		<OptionItem name="Viln"	    value="0.4331" />
+		<OptionItem name="Trem"	    value="0.5119" />
+		<OptionItem name="All"		    value="0.5906" />
+	</OptionMenu>
+
+
+<Slider param="21"   x="171"  y="35"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+	<StaticText x="201" y="10" w=52" h="18" text="Unison" color_text="#D7DAE0FF" transparent="1"   />
+
+<Slider param="25"   x="221"  y="35"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+	<StaticText x="251" y="10" w="52" h="18" text="Width" color_text="#D7DAE0FF" transparent="1"   />
+
+<Slider param="26"   x="271"  y="35"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+	<StaticText x="301" y="1" w=52" h="18" text="Detune" color_text="#D7DAE0FF" transparent="1"   />
+
+	<StaticText x="301" y="10" w=52" h="18" text="Const" color_text="#D7DAE0FF" transparent="1"   />
+
+<Slider param="27"   x="321"  y="35"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+	<StaticText x="351" y="1" w=52" h="18" text="Detune" color_text="#D7DAE0FF" transparent="1"   />
+
+	<StaticText x="351" y="10" w=52" h="18" text="Temp" color_text="#D7DAE0FF" transparent="1"   />
+
+<Slider param="28"   x="371"  y="35"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+	<StaticText x="401" y="10" w=52" h="18" text="Time" color_text="#D7DAE0FF" transparent="1"   />
+
+<Slider param="29"   x="421"  y="35"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+	<StaticText x="451" y="10" w=52" h="18" text="Attack" color_text="#D7DAE0FF" transparent="1"   />
+
+<Slider param="100"   x="471"  y="35"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+
+	<StaticText x="501" y="10" w="52" h="18" text="Hold" color_text="#D7DAE0FF" transparent="1"   />
+
+<Slider param="101"   x="521"  y="35"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+
+	<StaticText x="551" y="10" w=52" h="18" text="Decay" color_text="#D7DAE0FF" transparent="1"   />
+
+<Slider param="102"   x="571"  y="35"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+	<StaticText x="601" y="10" w="52" h="18" text="Sustain" color_text="#D7DAE0FF" transparent="1"   />
+
+<Slider param="103"   x="621"  y="35"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+	<StaticText x="651" y="10" w=52" h="18" text="Release" color_text="#D7DAE0FF" transparent="1"   />
+
+<Slider param="104"   x="671"  y="35"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+	<StaticText x="701" y="10" w="52" h="18" text="Soften" color_text="#D7DAE0FF" transparent="1"   />
+
+<Slider param="106"   x="721"  y="35"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+	<!-- Second row -->
+
+	<StaticText x="1" y="172" w="52" h="18" text="Legato" color_text="#D7DAE0FF" transparent="1"   />
+	
+	<OnOffButton param="108" x="12" y="195" w="30" h="30" image="cc_button.png" />
+
+	<StaticText x="51" y="172" w="52" h="18" text="Port time" color_text="#D7DAE0FF" transparent="1"   />
+	
+<Slider param="109"   x="71"  y="197"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+	<StaticText x="101" y="172" w="52" h="18" text="Vibrato" color_text="#D7DAE0FF" transparent="1"   />
+	
+<Slider param="111"   x="121"  y="197"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+	<StaticText x="151" y="172" w="52" h="18" text="Rate" color_text="#D7DAE0FF" transparent="1"   />
+	
+<Slider param="112"   x="171"  y="197"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+	<StaticText x=201" y="172" w=52" h="18" text="Wobble" color_text="#D7DAE0FF" transparent="1"   />
+
+<Slider param="113"   x="221"  y="197"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+	<StaticText x="251" y="172" w=52" h="18" text="Tremolo" color_text="#D7DAE0FF" transparent="1"   />
+
+<Slider param="114"   x="271"  y="197"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+	<StaticText x="301" y="172" w="52" h="18" text="Delay" color_text="#D7DAE0FF" transparent="1"   />
+
+<Slider param="115"   x="321"  y="197"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+	<StaticText x="351" y="172" w=52" h="18" text="Fade" color_text="#D7DAE0FF" transparent="1"   />
+
+<Slider param="116"   x="371"  y="197"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+	<StaticText x="401" y="172" w=52" h="18" text="Humanize" color_text="#D7DAE0FF" transparent="1"   />
+
+<Slider param="117"   x="421"  y="197"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+	<StaticText x="451" y="172" w=52" h="18" text="Cutoff" color_text="#D7DAE0FF" transparent="1"   />
+
+<Slider param="120"   x="471"  y="197"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+	<StaticText x="496" y="172" w="62" h="18" text="Resonance" color_text="#D7DAE0FF" transparent="1"   />
+
+<Slider param="121"   x="521"  y="197"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+
+	<StaticText x="551" y="172" w=52" h="18" text="Veltrack" color_text="#D7DAE0FF" transparent="1"   />
+
+<Slider param="124"   x="571"  y="197"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+	<StaticText x="601" y="172" w="52" h="18" text="Pluck" color_text="#D7DAE0FF" transparent="1"   />
+
+<Slider param="125"   x="621"  y="197"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+	<StaticText x="651" y="172" w=52" h="18" text="Attack" color_text="#D7DAE0FF" transparent="1"   />
+
+<Slider param="126"   x="671"  y="197"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+	<StaticText x="701" y="172" w="52" h="18" text="Decay" color_text="#D7DAE0FF" transparent="1"   />
+
+<Slider param="127"   x="721"  y="197"  w="12" h="128" orientation="vertical"    image_handle="cc_fader_handle.png" image_bg="cc_fader_slot.png"  />
+
+</GUI>                                                                                                                                       
