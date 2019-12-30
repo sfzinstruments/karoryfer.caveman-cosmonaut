@@ -1,0 +1,157 @@
+<control>
+label_cc15=Bass Osc Vol
+label_cc16=Bass Osc Sel
+label_cc17=Osc 1 Vol
+label_cc18=Osc 1 Sel
+label_cc19=Osc 2 Vol
+label_cc20=Osc 2 Sel
+label_cc21=Osc 3 Vol
+label_cc22=Osc 3 Sel
+label_cc25=Unison
+label_cc26=Width
+label_cc27=Detune
+label_cc28=Extra detune amt
+label_cc29=Extra detune time
+label_cc100=Attack time
+label_cc101=Hold time
+label_cc102=Decay time
+label_cc103=Sustain level
+label_cc104=Release time
+label_cc106=Env soften
+label_cc108=Legato switch
+label_cc109=Porta time
+label_cc111=Vibrato to pitch
+label_cc112=Vibrato speed
+label_cc113=Vibrato to cutoff
+label_cc114=Vibrato to volume
+label_cc115=Vibrato delay
+label_cc116=Vibrato fade
+label_cc117=Unsteadiness
+label_cc120=Filter cutoff
+label_cc121=Resonance
+label_cc124=Veltrack
+label_cc125=Pluck
+label_cc126=Filter attack
+label_cc127=Filter decay
+
+set_cc15=100
+set_cc16=15
+set_cc17=127
+set_cc18=63
+set_cc19=100
+set_cc20=15
+set_cc21=100
+set_cc22=44
+set_cc26=63
+set_cc27=63
+set_cc29=16
+set_cc102=63
+set_cc103=51
+set_cc104=31
+set_cc109=31
+set_cc112=40
+set_cc120=127
+set_cc127=40
+
+<global>
+bend_down=-2400
+bend_up=2400
+off_mode=normal
+loop_mode=continuous
+offset=10000
+offset_random=1000
+
+//AHDSR
+ampeg_attack=0.002
+ampeg_sustain=0
+ampeg_release=0.002
+ampeg_attack_oncc100=0.5 
+ampeg_hold_oncc101=1 
+ampeg_decay_oncc102=5
+ampeg_sustain_oncc103=100
+ampeg_release_oncc104=2
+//Decay and release are affected by the soften parameter also
+//This is set separately for each oscillator
+
+//Filter
+//Lowpass filter
+//By default, cutoff modulation is measured in cents
+//To make the modulation not keytrack, we make a kludge
+//Using var
+cutoff=250
+var02_cutoff=9000
+var02_mod=mult
+var02_oncc120=1
+var02_curvecc120=0
+var02_oncc133=1
+var02_curvecc133=11
+fil_keytrack=70
+resonance=0
+resonance_cc121=18
+var01_cutoff=6000 //Velocity track
+var01_mod=mult
+var01_oncc131=1
+var01_oncc124=1
+cutoff_cc124=-3000
+//Pluck envelope
+fileg_depth=0
+fileg_depthcc125=8400
+fileg_sustain=0
+fileg_attack=0
+fileg_attackcc126=0.5
+fileg_decay=0.001
+fileg_decaycc127=2
+
+//Vibrato and humanization setup
+lfo01_pitch_oncc111=22 //Vibrato LFO
+lfo01_freq=0.1
+lfo01_freq_oncc112=9.9
+lfo01_delay_oncc115=0.500
+lfo01_fade_oncc116=0.500
+lfo01_volume_oncc114=6
+//Wobble
+lfo01_cutoff=0
+lfo01_cutoff_oncc113=3600
+
+lfo02_wave=1 //Second LFO to make things wobblier
+lfo02_phase=0
+lfo02_phase_oncc135=1 //Phase randomized
+lfo02_freq=0.01 //Basically no movement at very slow speeds, just randomization
+lfo02_freq_oncc117=1 //Max rate is not very high, so it doesn't sound too obvious
+lfo02_pitch_oncc117=6 //Slight pitch wobbliness
+lfo02_freq_lfo01_oncc117=0.5 //Affect the rate of the other LFO for unsteady vibrato
+lfo02_freq_lfo01_oncc112=2.5 //Faster when the first LFO is going faster
+
+lfo03_wave=1 //And a third LFO for secondhand complex wobbliness
+lfo03_phase=0.4
+lfo03_phase_oncc135=0.179 //Different phase response to random than the second LFO
+lfo03_freq=0.5
+lfo03_freq_oncc117=-0.4
+lfo03_freq_lfo2_oncc117=1
+lfo03_pitch_oncc117=-4
+
+lfo04_wave=1 //Fourth LFO for slowly changing the oscillator mix
+lfo04_phase_oncc135=1
+lfo04_freq=0.01
+lfo04_freq_oncc135=0.25 //Randomly from almost not moving at all to still pretty slow
+lfo04_volume_oncc117=1.5 //Slight volume changes
+
+//Some defaults for the fancy detune stuff
+pitcheg_sustain=0
+pitcheg_decay_shape=-2
+
+//And here come the oscillator mappings
+//First polyphonic mode
+
+#include "mappings/poly_map.sfz"
+
+#include "mappings/mono_first_map.sfz"
+
+#include "mappings/mono_legato_map.sfz"
+
+<curve>
+curve_index=11
+v000=1
+v024=1
+v084=0.63
+v127=0.25
