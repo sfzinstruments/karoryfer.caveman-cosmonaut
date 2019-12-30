@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<AriaSave version="1951" productID="1014">
+    <Slot id="0" name="Caveman Cosmonaut" bankId="2535" version="1000" channel="-1" poly="64" tuning="0" pb_range="-1" ptrans="0" mtrans="0" moctave="0" mute="0">
+        <Main id="0" value="1" />
+        <Main id="1" value="0" />
+        <Main id="2" value="0" />
+        <Main id="3" value="0" />
+        <Main id="4" value="0" />
+        <Main id="5" value="0" />
+        <Main id="6" value="0" />
+        <Main id="7" value="0" />
+        <Main id="8" value="0" />
+        <Main id="9" value="0" />
+        <Main id="10" value="0" />
+        <Main id="11" value="0" />
+        <Main id="12" value="0" />
+        <Main id="13" value="0" />
+        <Main id="14" value="0" />
+        <Main id="15" value="0" />
+        <Param id="16" value="0.3544000089168549" />
+        <Param id="18" value="0.511900007724762" />
+        <Param id="19" value="1" />
+        <Param id="20" value="0.1181000024080276" />
+        <Param id="21" value="1" />
+        <Param id="22" value="0.2755999863147736" />
+        <Param id="25" value="0.8139344453811646" />
+        <Param id="26" value="1" />
+        <Param id="27" value="0.5450819730758667" />
+        <Param id="102" value="0.453278660774231" />
+        <Param id="103" value="0.6040983200073242" />
+        <Param id="104" value="0.269672155380249" />
+        <Param id="106" value="0.4991803169250488" />
+        <Param id="109" value="0.1926229596138" />
+        <Param id="111" value="0.1663934588432312" />
+        <Param id="112" value="0.2450819611549377" />
+        <Param id="114" value="0.1139343976974487" />
+    </Slot>
+</AriaSave>

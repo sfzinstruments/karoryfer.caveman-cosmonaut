@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<AriaSave version="1951" productID="1014">
+    <Slot id="0" name="Caveman Cosmonaut" bankId="2535" version="1000" channel="-1" poly="64" tuning="0" pb_range="-1" ptrans="0" mtrans="0" moctave="0" mute="0">
+        <Main id="0" value="1" />
+        <Main id="1" value="0" />
+        <Main id="2" value="0" />
+        <Main id="3" value="0" />
+        <Main id="4" value="0" />
+        <Main id="5" value="0" />
+        <Main id="6" value="0" />
+        <Main id="7" value="0" />
+        <Main id="8" value="0" />
+        <Main id="9" value="0" />
+        <Main id="10" value="0" />
+        <Main id="11" value="0" />
+        <Main id="12" value="0" />
+        <Main id="13" value="0" />
+        <Main id="14" value="0" />
+        <Main id="15" value="0" />
+        <Param id="15" value="1" />
+        <Param id="16" value="0.3544000089168549" />
+        <Param id="18" value="0.511900007724762" />
+        <Param id="19" value="0.827049195766449" />
+        <Param id="20" value="0.5906000137329102" />
+        <Param id="21" value="0.715573787689209" />
+        <Param id="22" value="0.2755999863147736" />
+        <Param id="25" value="1" />
+        <Param id="26" value="1" />
+        <Param id="27" value="0" />
+        <Param id="28" value="1" />
+        <Param id="29" value="0.1450819969177246" />
+        <Param id="101" value="0.1647540926933289" />
+        <Param id="102" value="0.3024590015411377" />
+        <Param id="103" value="0" />
+        <Param id="104" value="0.1450819969177246" />
+        <Param id="106" value="0.5581967234611511" />
+        <Param id="109" value="0" />
+        <Param id="111" value="0.2860655784606934" />
+        <Param id="112" value="0.06803280115127563" />
+        <Param id="114" value="0.1204918026924133" />
+        <Param id="116" value="1" />
+        <Param id="117" value="0.1745901703834534" />
+        <Param id="120" value="0.5352458953857422" />
+        <Param id="125" value="0.3581967353820801" />
+        <Param id="127" value="0.41557377576828" />
+    </Slot>
+</AriaSave>
